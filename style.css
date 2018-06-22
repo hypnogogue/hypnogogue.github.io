@@ -85,6 +85,10 @@ html {
 	color:#DAD8EA;
 }
 
+.button_link:hover {
+	text-decoration:none;
+}
+
 .beast_button_link {
 	text-decoration:none;
 	font-weight:bold;
