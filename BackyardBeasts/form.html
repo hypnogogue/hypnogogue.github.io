@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Beast-Sighting Form</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<nav class="main_nav">
+			<button type="button" class="button"><a href="index.html" class="button_link">Home</a></button>
+			<button type="button" class="button"><a href="beasts.html" class="button_link">Backyard Beasts</a></button>
+			<button type="button" class="button"><a href="Fred.html" class="button_link">My neighbor, Fred</a></button>
+			<button type="button" class="button"><a href="Form.html" class="button_link">Submit your beast-findings</a></button>
+		</nav>
+		<hr>
+		<header>
+			<p>Have you seen a strange beast in your own backyard? Tell me about it here! Maybe I'll come visit one day and study it... you have a futon, right?<br><br>
+			</p>
+		</header>
+		<hr>
+		<br>
+		<form method="GET">
+			Name: <input type="text" name="name" required><br><br>
+			Address: <input type="text" name="location" required><br><br>
+			Email: <input type="email" name="email" required><br><br>
+			Beast description: <input type="text" name="description"><br><br>
+			Beast sighting date: <input type="date" name="date"><br><br>
+			How many futons do you own?<br><br>
+			<input type="radio" name="futon">One<br>
+			<input type="radio" name="futon">Two<br>
+			<input type="radio" name="futon">I don't have any futons<br>
+			<input type="radio" name="futon">You can't sleep on my futon<br><br>
+			Do you have HBO? 
+			<input type="checkbox" name="HBO">Yes<br><br>
+			How is the water pressure for your shower?<br>
+			<select name="shower">
+				<option value="great">Great!</option>
+				<option value="OK">It's OK</option>
+				<option value="dribble">Terrible</option>
+				<option value="noshower">Wait, what? You can't shower at my house.</option>
+			</select><br><br>
+			<input type="submit" value="Send me your info">
+			<input type="reset">
+		</form>
+	</body>
+</html>
